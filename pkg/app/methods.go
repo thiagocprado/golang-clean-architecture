@@ -6,16 +6,6 @@ import (
 	"strings"
 )
 
-func FindInArray(array []string, value string) bool {
-	for _, v := range array {
-		if v == value {
-			return true
-		}
-	}
-
-	return false
-}
-
 func FindInArrayInt(values string, value int) bool {
 	array := strings.Split(values, ",")
 

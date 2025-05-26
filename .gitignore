@@ -1,0 +1,54 @@
+# Executáveis Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Diretório de build
+/build/
+
+# Diretório bin
+/bin/
+
+# Diretório de distribuição
+/dist/
+
+# Diretório de cache do Go
+/pkg/
+
+# Arquivos de dependências baixadas (módulos)
+vendor/
+
+# Arquivos temporários
+*.log
+*.tmp
+*.out
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+
+# Arquivos de configurações locais
+.env
+.env.*
+
+# Arquivos gerados pelo debugger
+*.coverprofile
+*.profile
+*.pprof
+
+# Arquivos de testes
+*.test
+
+# Arquivos de lock do Go (não precisa ignorar, mas se não quiser versionar)
+# go.sum
+
+# Arquivos de cache específicos do Go
+/go.work
+/go.work.sum
